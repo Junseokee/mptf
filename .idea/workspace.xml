@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9d33031-a108-422e-82e7-0bb0c395e9ef" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/terraform-docs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/policy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/policy.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/role.tf" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/role.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724804989215</updated>
       <workItem from="1724804990512" duration="10285000" />
-      <workItem from="1724829614612" duration="679000" />
+      <workItem from="1724829614612" duration="924000" />
     </task>
     <servers />
   </component>
