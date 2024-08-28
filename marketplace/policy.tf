@@ -50,7 +50,9 @@ resource "aws_iam_policy" "policy" {
 
 output "aws_policy_name" {
   value = aws_iam_policy.policy.name
+  description = "aws_policy_name"
 }
 output "aws_policy_arn" {
   value = aws_iam_policy.policy.arn
+  description = "aws_policy_arn"
 }

@@ -27,15 +27,19 @@ resource "aws_iam_role" "role" {
 resource "aws_iam_role_policy_attachment" "role_policy_attach" {
   policy_arn = aws_iam_policy.policy.arn
   role       = aws_iam_role.role.name
+  description = "role_policy_attach"
 }
 
 output "aws_role_name" {
   value = aws_iam_role.role.name
+  description = "aws_role_name"
 }
 output "aws_role_arn" {
   value = aws_iam_role.role.arn
+  description = "aws_role_arn"
 }
 
 output "aws_role_assume_role_policy" {
   value = aws_iam_role.role.assume_role_policy
+  description = "aws_role_assume_role_policy"
 }

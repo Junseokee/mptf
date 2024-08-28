@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9d33031-a108-422e-82e7-0bb0c395e9ef" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform-docs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/modules/modules.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/hashicorp/aws/5.7.0/darwin_arm64/terraform-provider-aws_v5.7.0_x5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/hashicorp/http/3.4.4/darwin_arm64/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/hashicorp/http/3.4.4/darwin_arm64/terraform-provider-http_v3.4.4_x5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/.terraform/providers/registry.terraform.io/hashicorp/aws/5.7.0/darwin_arm64/terraform-provider-aws_v5.7.0_x5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/.terraform/providers/registry.terraform.io/hashicorp/http/3.4.4/darwin_arm64/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketplace/.terraform/providers/registry.terraform.io/hashicorp/http/3.4.4/darwin_arm64/terraform-provider-http_v3.4.4_x5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/policy.tf" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/policy.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketplace/role.tf" beforeDir="false" afterPath="$PROJECT_DIR$/marketplace/role.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,35 +18,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2lGSb7XHfOSTKzNVe8dNtL8mLVS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kb01-junskee/Desktop/Project/marketplace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kb01-junskee/Desktop/Project/marketplace&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -60,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724804989215</updated>
-      <workItem from="1724804990512" duration="10104000" />
+      <workItem from="1724804990512" duration="10285000" />
+      <workItem from="1724829614612" duration="679000" />
     </task>
     <servers />
   </component>
