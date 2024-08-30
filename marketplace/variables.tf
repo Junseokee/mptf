@@ -18,7 +18,14 @@ variable "aws_account" {
   description = "업체 AWS 계정"
   type        = list(string)
 }
-
+variable "access_key" {
+  description = "AWS 엑세스 키"
+  type        = string
+}
+variable "secret_key" {
+  description = "AWS 시크릿 키"
+  type        = string
+}
 variable "pricing_type" {
   description = "요금 타입"
   type        = string

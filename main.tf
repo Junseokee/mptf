@@ -5,10 +5,12 @@
 #}
 module "marketplace_role" {
   source = "./marketplace"
-  aws_account = ["108782088260"]
+  aws_account = [""]
   company = ""
   pricing_type = ""
   product = ""
+  access_key = ""
+  secret_key = ""
 }
 
 output "policy_arn" {
